@@ -172,7 +172,10 @@ function create ()
      //console.log('clicked on DragonLogo')
    // window.open('https://scratch.mit.edu/projects/683966748', '_blank');
     //});
-//Time 
+
+
+
+    //Time 
 
   // 2:30 in seconds
     //this.initialTime = 150;
@@ -194,6 +197,8 @@ function DragonLogo_collide (_Pixie, _DragonLogo)
         windowOpened=true
         Pixie.setVelocityX(0);
         Pixie.setVelocityY(0);
+        //show image here
+        //pointer down- to hide image 
     }
 }
 

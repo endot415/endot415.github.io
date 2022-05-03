@@ -32,10 +32,10 @@ img {
 
 .final_logo {
     height: 200px;
-    width: 1420px;
+    width: 1350px;
 }
 
-p {
+h2, p {
     text-align: center;
     font-family:Sassoon_Primary;
     color:rgb(213, 219, 219);
