@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Sassoon_Primary;
+    src: url(/styles/Sassoon_Primary/Sassoon-Primary.otf);
+  }
+
+  @font-face {
+    font-family: Open_Sans;
+    src: url(/styles/Open_Sans/OpenSans-VariableFont_wdth/,wght.ttf);
+  }
+  
+  div {
+    font-family: Sassoon_Primary;
+  }
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  font-family: Sassoon_Primary;
+}
+
+p {
+    text-align: center;
+    color:black; 
+    font-family: Sassoon_Primary;
+}
+
+button {
+    display: none;
+}
+
+#section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
