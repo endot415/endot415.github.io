@@ -38,8 +38,9 @@ img {
 h2, p {
     text-align: center;
     font-family:Sassoon_Primary;
-    color:rgb(213, 219, 219);
+    color:rgb(201, 206, 206);
 }
+
 
 section {
     width: 100%;
@@ -67,5 +68,5 @@ section {
 }
 
 .yellow {
-    background-color: rgb(64, 165, 64);
+    background-color: rgb(134, 165, 9);
 }
