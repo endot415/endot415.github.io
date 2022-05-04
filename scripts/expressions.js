@@ -28,6 +28,7 @@ var BunnyLogo;
 var LochLogo;
 var text;
 var windowOpened =false;
+var endingScript
 
 window.addEventListener("focus", function(event) 
 { 
@@ -48,6 +49,7 @@ function preload ()
     this.load.image('DragonLogo', 'images/DragonLogo.png');
     this.load.image('BunnyLogo', 'images/BunnyLogo.png');
     this.load.image('LochLogo', 'images/LochLogo.png');
+    this.load.image('endingScript', 'images/ending_script.png');
 }
 
 function create ()
@@ -197,6 +199,10 @@ function DragonLogo_collide (_Pixie, _DragonLogo)
         windowOpened=true
         Pixie.setVelocityX(0);
         Pixie.setVelocityY(0);
+       // endingScript = this.add.image(370, 450)
+        //endingScript.displayWidth = 300
+        //endingScript.displayHeight = 100
+        //endingScript.setOrigin(0,0);
         //show image here
         //pointer down- to hide image 
     }
