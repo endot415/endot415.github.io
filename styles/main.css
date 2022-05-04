@@ -23,6 +23,7 @@ h1 {
     font-family:Open_Sans;
 }
 
+
 img {
     text-align: center;
     max-width: 100%;
@@ -33,6 +34,12 @@ img {
 .final_logo {
     height: 200px;
     width: 1420px;
+}
+
+.AnGerr_logo, .MessenGerr_logo, .TriGerr_logo {
+    height: 200px;
+    width: 100;
+    text-align: center;
 }
 
 h2, p {
@@ -53,7 +60,7 @@ section {
 }
 
 .box {
-    height: 150px;
+    height: 400px;
     width: 33%;
 }
 
